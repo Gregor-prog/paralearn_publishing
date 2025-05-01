@@ -13,7 +13,7 @@ function Content(){
 
 
 function Navbar(){
-    return <nav className="flex flex-row items-center justify-between">
+    return <nav className="flex flex-row items-center justify-between pb-7 absolute z-[10] w-[100%]">
         <div>
             <p className="">Paralearn</p>
         </div>
