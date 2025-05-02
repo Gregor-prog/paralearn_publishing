@@ -13,13 +13,13 @@ function Content(){
 
 
 function Navbar(){
-    return <nav className="flex flex-row items-center justify-between pb-7 absolute z-[10] w-[100%]">
+    return <nav className="flex flex-row p-[30px] fixed items-center justify-between py-3  w-[100%] bg-[#f3f7c88a] backdrop-blur-2xl z-[50]">
         <div>
-            <p className="">Paralearn</p>
+            <p className=" font-semibold text-xl">Paralearn</p>
         </div>
         <Content/>
         <div>
-            <button>
+            <button className="p-[10px] rounded-2xl bg-[#74b974]">
                 Get started
             </button>
         </div>
