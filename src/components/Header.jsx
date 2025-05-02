@@ -15,12 +15,12 @@ function Header(){
         AOS.init();
       }, [])
 
-    return <div className="flex items-center justify-between relative  p-5 pt-20" style={{backgroundImage:'linear-gradient(#caf452,white)'}}>
+    return <div className="flex items-center justify-between relative  p-5 pt-20 bg-opacity-20" style={{backgroundImage:'linear-gradient(#caf452,white,transparent)'}}>
         <div className=" z-10 p-[20px]">
         <img src={exbook} alt="" className="absolute z-[-10] top-[150px] left-[5px] w-[130px]"/>
             <p className="text-4xl relative font-bold  my-5" style={{fontFamily:"montserrat"}}>Reinvent Your Publishing Journey with AI‑Powered Support</p>
             <p className="font-[lora]" style={{fontFamily:"lora"}}>From manuscript to market—fast, affordable, and personalized.</p>
-            <button className="p-[15px] rounded-2xl my-[20px] bg-amber-400">Get Started</button>
+            <button className="p-[13px] rounded-2xl my-[20px] bg-[#50b850fd] mx-4 drop-shadow-2xl drop-shadow-[#474747]">Get Started</button>
         </div>
         <div className="" >
         <img src={draw} data-aos="fade-up" alt="no pic" className="right-[-2px] top-16 z-[5] drop-shadow-xl absolute  drop-shadow-black " />

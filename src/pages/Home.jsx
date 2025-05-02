@@ -5,14 +5,14 @@ import NewsLetter from "../components/newsletter"
 import ServiceHome from "../components/servicrHome"
 import Stat from "../components/stats"
 function Home(){
-    return <>
+    return <div className="bg-[#7474f3]">
     <Navbar/>
     <Header/>
     <AboutHome/>
     <ServiceHome/>
     <Stat/>
     <NewsLetter/>
-    </>
+    </div>
 }
 
 export default Home

@@ -13,7 +13,7 @@ function Content(){
 
 
 function Navbar(){
-    return <nav className="flex flex-row p-[30px] fixed items-center justify-between py-3  w-[100%] bg-[#f3f7c88a] backdrop-blur-2xl z-[50]">
+    return <nav className="flex flex-row p-[30px] fixed items-center justify-between py-3  w-[100%] bg-[#fcfcfc2a] backdrop-blur-xl z-[50]">
         <div>
             <p className=" font-semibold text-xl">Paralearn</p>
         </div>
