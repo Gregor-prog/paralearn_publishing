@@ -1,18 +1,55 @@
-import image from "../assets/2002.i039.010_chatbot_messenger_ai_isometric_set-03-removebg-preview.png"
-import threeD from "../assets/11444696-removebg-preview.png"
-import 'typeface-montserrat'
-import 'typeface-lora'
-function AboutHome(){
-    return <div className="flex items-center relative justify-between px-[30px]">
-        <img src={threeD} alt=""  className=" z-[10] absolute w-[200px] right-4 bottom-8"/>
-        <div className="w-[50%]">
-            <img src={image} alt="image" />
+import image from "../assets/2002.i039.010_chatbot_messenger_ai_isometric_set-03-removebg-preview.png";
+import threeD from "../assets/11444696-removebg-preview.png";
+import "typeface-montserrat";
+import "typeface-lora";
+import AOS from 'aos'
+import { useEffect } from "react";
+function AboutHome() {
+     useEffect(() => {
+            AOS.init();
+          }, [])
+  return (
+    <section className="relative px-6 py-16 bg-[#f7f7f7] overflow-hidden">
+      {/* Floating 3D illustration */}
+      <img
+        src={threeD}
+        alt=""
+        className="absolute w-[180px] md:w-[220px] bottom-4 right-6 z-0 opacity-80 pointer-events-none"
+        data-aos='fade-right'
+      />
+
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between relative z-10" data-aos='fade-left'>
+        {/* Left Image */}
+        <div className="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
+          <img
+            src={image}
+            alt="AI Illustration"
+            className="w-[80%] max-w-md"
+          />
         </div>
-        <div className="w-[50%] p-8 z-[15]">
-            <p className="font-stretch-90% text-2xl font-medium text-[#e6e6e6]" style={{fontFamily:"montserrat"}} >At Parakletus Publishing, we bring the writer in you to life. 
-                Whether you're an aspiring novelist or academic scholar,<span className="text-[#4b3f3f]"> we provide tailored guidance and cutting-edge AI tools to streamline your journey from idea to publication.</span></p>
+
+        
+        <div className="w-full lg:w-1/2 px-4" data-aos='fade-left'>
+          <h2
+            className="text-3xl font-semibold mb-6 text-gray-800 leading-snug"
+            style={{ fontFamily: "Montserrat" }}
+          >
+            At Parakletus Publishing, we bring the writer in you to life.
+          </h2>
+          <p
+            className="text-lg text-gray-600"
+            style={{ fontFamily: "Lora", lineHeight: "1.7" }}
+          >
+            Whether you're an aspiring novelist or academic scholar,{" "}
+            <span className="text-[#4b3f3f] font-semibold">
+              we provide tailored guidance and cutting-edge AI tools
+            </span>{" "}
+            to streamline your journey from idea to publication.
+          </p>
         </div>
-    </div>
+      </div>
+    </section>
+  );
 }
 
-export default AboutHome
+export default AboutHome;
