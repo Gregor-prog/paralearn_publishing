@@ -1,4 +1,4 @@
-import one from "../assets/kevin-woblick-NgPdyZFV29w-unsplash.jpg" 
+import one from "../assets/2880031.jpg" 
 function NewsLetter(){
     return <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="p-[40px] bg-[#868686] flex flex-col items-start justify-center">
