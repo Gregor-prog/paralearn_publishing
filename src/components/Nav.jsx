@@ -29,9 +29,9 @@ function Navbar(){
                 AOS.init();
               }, [])
     function MobileNav(){
-        return <div className="absolute left-0 top-0 z-[40] w-[100%] bg-[#74c474fd] p-[30px]" data-aos='slide-down'>
+        return <div className="absolute left-0 top-0 z-[40] w-[100%] bg-[#8bffdcfd] p-[30px]" data-aos='slide-down'>
             <X onClick={close} className="absolute right-[10%] cursor-pointer"/>
-            <ul className="divide-y divide-gray-300 mt-4">
+            <ul className="divide-y divide-gray-500 mt-4">
             <li className="py-3 text-center"><Link to='/'>Home</Link></li>
             <li className="py-3 text-center"><Link to='/about'>About</Link></li>
             <li className="py-3 text-center"><Link to='/services'>Services</Link></li>
