@@ -7,8 +7,6 @@ function Content(){
         <p><Link to='/'>Home</Link></p>
         <p><Link to='/about'>About</Link></p>
         <p><Link to='/services'>Services</Link></p>
-        <p><Link to='/blog'>Blogs</Link></p>
-        <p><Link to='/content'>Content</Link></p>
     </div>
 }
 
@@ -35,8 +33,6 @@ function Navbar(){
             <li className="py-3 text-center"><Link to='/'>Home</Link></li>
             <li className="py-3 text-center"><Link to='/about'>About</Link></li>
             <li className="py-3 text-center"><Link to='/services'>Services</Link></li>
-            <li className="py-3 text-center"><Link to='/blog'>Blogs</Link></li>
-            <li className="py-3 text-center"><Link to='/content'>Content</Link></li>
             </ul>
             <button className="p-[10px] rounded-2xl text-white text-center font-semibold bg-[#0c0e0c]">
                 Get started
@@ -45,7 +41,7 @@ function Navbar(){
     }
     return <nav className="flex flex-row p-[30px] fixed items-center justify-between py-3  w-[100%] bg-[#fcfcfc2a] backdrop-blur-xl z-[50]">
         <div>
-            <p className=" font-semibold text-xl">Parakletus</p>
+            <p className=" font-semibold text-xl">Parakletus Publishing</p>
         </div>
         <Content/>
         {isOpen?<MobileNav/>:null}

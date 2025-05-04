@@ -18,9 +18,9 @@ function Header(){
     return <div className="flex flex-col md:flex-row items-center justify-evenly relative  p-5 pt-20 bg-opacity-20" style={{backgroundImage:'linear-gradient(#63F2E2,white,transparent)'}}>
         <div className=" z-10 p-[20px] relative align-middle justify-center">
         <img src={exbook} alt="" data-aos='slide-right' className="absolute z-[-10] top-[220px] left-[70%] w-[130px]"/>
-            <p className="text-4xl relative font-bold  my-5" style={{fontFamily:"montserrat"}}>Reinvent Your Publishing Journey with AI‑Powered Support</p>
+            <p className="text-4xl relative font-bold  my-5" style={{fontFamily:"montserrat"}}>Re-Invent Your Publishing Journey with AI‑Powered Support</p>
             <p className="font-[lora]" style={{fontFamily:"lora"}}>From manuscript to market—fast, affordable, and personalized.</p>
-            <button className="p-[13px] rounded-2xl my-[20px] bg-[#1A1F3B] mx-4 drop-shadow-2xl drop-shadow-[#474747]">Get Started</button>
+            <button className="p-[13px] rounded-2xl my-[20px] bg-[#1A1F3B] mx-4 drop-shadow-2xl text-white hover:bg-[#4e5580] cursor-pointer drop-shadow-[#474747]">Get Started</button>
         </div>
         <div className="relative" >
         <img src={draw}  alt="no pic" data-aos='fade-down' className="right-[90px] w-[340px] lg:w-[470px] top-28 z-[5] drop-shadow-xl absolute  drop-shadow-black " />
