@@ -38,16 +38,16 @@ function ServiceHome() {
         What We Offer
       </h2>
 
-      <div className="flex flex-col lg:flex-row items-start justify-between gap-12">
+      <div className="flex flex-col sm:flex-row items-start justify-between gap-12">
         {/* Service Texts */}
         <div className="flex-1">
           {services.map((service, index) => (
             <div className="mb-8" data-aos='fade-right' key={index}>
-              <p className="font-semibold text-lg text-indigo-700 flex items-center gap-2">
+              <p className="font-semibold text-[17px] sm:text-[15px] lg:text-[19px] text-indigo-700 flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-green-500" />
                 {service.service}
               </p>
-              <p className="text-sm text-gray-600 mt-2 leading-relaxed">
+              <p className="text-[14px] sm:text-[12px] lg:text-[16px] text-gray-600 mt-2 leading-relaxed">
                 {service.info}
               </p>
             </div>

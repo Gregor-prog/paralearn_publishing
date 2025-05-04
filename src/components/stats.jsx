@@ -35,7 +35,7 @@ function Stat() {
         Testimonials & Stats
       </h2>
 
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
+      <div className="flex flex-col sm:flex-row items-center justify-between gap-10">
         <div className="w-full lg:w-1/2 space-y-6">
           <div className="bg-gray-100 p-6 rounded-xl shadow-sm" data-aos='fade-right'>
             <p className="text-xl text-gray-700 font-semibold">
@@ -57,7 +57,7 @@ function Stat() {
           </div>
         </div>
 
-        <div className="w-full lg:w-[45%]">
+        <div className="w-full sm:w-[45%]">
           <Splide
             options={{
               rewind: true,

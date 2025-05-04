@@ -18,7 +18,7 @@ function AboutHome() {
         data-aos='fade-right'
       />
 
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between relative z-10" data-aos='fade-left'>
+      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between relative z-10" data-aos='fade-left'>
         {/* Left Image */}
         <div className="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
           <img
