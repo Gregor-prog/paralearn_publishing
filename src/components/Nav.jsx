@@ -4,9 +4,10 @@ import { useState,useEffect } from "react"
 import AOS from 'aos'
 function Content(){
     return <div className="hidden sm:flex flex-row items-center justify-evenly w-[50%]">
-        <p className="text-xl"><Link to='/'>Home</Link></p>
-        <p className="text-xl"><Link to='/about'>About</Link></p>
-        <p className="text-xl"><Link to='/services'>Services</Link></p>
+        <p className="text-[16px] md:text-xl"><Link to='/'>Home</Link></p>
+        <p className="text-[16px] md:text-xl"><Link to='/about'>About</Link></p>
+        <p className="text-[16px] md:text-xl"><Link to='/services'>Services</Link></p>
+        <p className="text-[16px] md:text-xl"><Link to='/services'>Contact</Link></p>
     </div>
 }
 
@@ -33,6 +34,7 @@ function Navbar(){
             <li className="py-3 text-center text-xl    "><Link to='/'>Home</Link></li>
             <li className="py-3 text-center text-xl    "><Link to='/about'>About</Link></li>
             <li className="py-3 text-center text-xl    "><Link to='/services'>Services</Link></li>
+            <li className="py-3 text-center text-xl    "><Link to='/services'>Contact</Link></li>
             </ul>
             <button className="p-[10px] rounded-2xl text-white text-center font-semibold bg-[#0c0e0c]">
                 Get started
