@@ -48,10 +48,10 @@ function Footer() {
             <button className="bg-[#ff4d4f] text-white px-4">Subscribe</button>
           </div>
           <div className="flex gap-4 text-[#ff4d4f] text-xl">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaLinkedin /></a>
+            <a href="https://www.facebook.com/dparakletus/"><FaFacebookF /></a>
+            <a href="https://twitter.com/parakletus_ng"><FaTwitter /></a>
+            <a href="https://www.instagram.com/parakletus.pub/"><FaInstagram /></a>
+            <a href="https://www.linkedin.com/company/parakletus-hub-nigeria/?originalSubdomain=ng"><FaLinkedin /></a>
           </div>
         </div>
 
