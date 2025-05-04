@@ -4,9 +4,9 @@ import { useState,useEffect } from "react"
 import AOS from 'aos'
 function Content(){
     return <div className="hidden sm:flex flex-row items-center justify-evenly w-[50%]">
-        <p><Link to='/'>Home</Link></p>
-        <p><Link to='/about'>About</Link></p>
-        <p><Link to='/services'>Services</Link></p>
+        <p className="text-xl"><Link to='/'>Home</Link></p>
+        <p className="text-xl"><Link to='/about'>About</Link></p>
+        <p className="text-xl"><Link to='/services'>Services</Link></p>
     </div>
 }
 
@@ -30,9 +30,9 @@ function Navbar(){
         return <div className="absolute left-0 top-0 z-[40] w-[100%] bg-[#8bffdcfd] p-[30px]" data-aos='slide-down'>
             <X onClick={close} className="absolute right-[10%] cursor-pointer"/>
             <ul className="divide-y divide-gray-500 mt-4">
-            <li className="py-3 text-center"><Link to='/'>Home</Link></li>
-            <li className="py-3 text-center"><Link to='/about'>About</Link></li>
-            <li className="py-3 text-center"><Link to='/services'>Services</Link></li>
+            <li className="py-3 text-center text-xl    "><Link to='/'>Home</Link></li>
+            <li className="py-3 text-center text-xl    "><Link to='/about'>About</Link></li>
+            <li className="py-3 text-center text-xl    "><Link to='/services'>Services</Link></li>
             </ul>
             <button className="p-[10px] rounded-2xl text-white text-center font-semibold bg-[#0c0e0c]">
                 Get started

@@ -10,11 +10,10 @@ function AboutHome() {
           }, [])
   return (
     <section className="relative px-6 py-16 bg-[#f7f7f7] overflow-hidden">
-      {/* Floating 3D illustration */}
       <img
         src={threeD}
         alt=""
-        className="absolute w-[180px] md:w-[220px] bottom-4 right-6 z-0 opacity-80 pointer-events-none"
+        className="absolute w-[100px] md:w-[150px] bottom-4 right-6 z-0 pointer-events-none"
         data-aos='fade-right'
       />
 
