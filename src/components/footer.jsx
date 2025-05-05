@@ -1,4 +1,5 @@
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import logo from "../assets/logo_1.jpg"
 
 function Footer() {
   return (
@@ -7,6 +8,7 @@ function Footer() {
         
         {/* Logo & Mission */}
         <div>
+                    <img src={logo} alt=""  className="w-[90px] m-auto"/>
           <h2 className="text-2xl font-bold mb-4 text-[#ff4d4f]">Parakletus Publishing</h2>
           <p className="text-sm text-gray-400">
             Transforming manuscripts into masterpieces. We empower authors with faster timelines, global reach, and affordable publishing services.

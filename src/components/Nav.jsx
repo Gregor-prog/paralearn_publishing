@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom"
 import {Menu,X} from 'lucide-react'
+import logo from "../assets/logo_1.jpg"
+import 'typeface-montserrat'
+import 'typeface-lora'
 import { useState,useEffect } from "react"
 import AOS from 'aos'
 function Content(){
@@ -42,13 +45,14 @@ function Navbar(){
         </div>
     }
     return <nav className="flex flex-row p-[30px] fixed items-center justify-between py-3  w-[100%] bg-[#fcfcfc2a] backdrop-blur-xl z-[50]">
-        <div>
-            <p className=" font-semibold text-xl">Parakletus Publishing</p>
+        <div className="flex gap-3 items-center">
+            <img src={logo} alt=""  className="w-[90px]"/>
+            <p className=" font-semibold text-xl" style={{fontFamily:"Montserrat"}}>Parakletus Publishing</p>
         </div>
         <Content/>
         {isOpen?<MobileNav/>:null}
         <div>
-            <button className="p-[10px] rounded-2xl bg-[#74b974] hidden sm:flex">
+            <button className="p-[10px] rounded-2xl bg-[#f5f5f5] hidden sm:flex font-bold cursor-pointer">
                 Get started
             </button>
         </div>
