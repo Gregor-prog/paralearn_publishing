@@ -10,7 +10,7 @@ function Content(){
         <p className="text-[16px] md:text-xl"><Link to='/'>Home</Link></p>
         <p className="text-[16px] md:text-xl"><Link to='/about'>About</Link></p>
         <p className="text-[16px] md:text-xl"><Link to='/services'>Services</Link></p>
-        <p className="text-[16px] md:text-xl"><Link to='/services'>Contact</Link></p>
+        <p className="text-[16px] md:text-xl"><Link to='/contact'>Contact</Link></p>
     </div>
 }
 
@@ -37,7 +37,7 @@ function Navbar(){
             <li className="py-3 text-center text-xl    "><Link to='/'>Home</Link></li>
             <li className="py-3 text-center text-xl    "><Link to='/about'>About</Link></li>
             <li className="py-3 text-center text-xl    "><Link to='/services'>Services</Link></li>
-            <li className="py-3 text-center text-xl    "><Link to='/services'>Contact</Link></li>
+            <li className="py-3 text-center text-xl    "><Link to='/contact'>Contact</Link></li>
             </ul>
             <button className="p-[10px] rounded-2xl text-white text-center font-semibold bg-[#0c0e0c]">
                 Get started
