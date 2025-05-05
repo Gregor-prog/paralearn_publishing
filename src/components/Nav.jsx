@@ -6,7 +6,7 @@ import 'typeface-lora'
 import { useState,useEffect } from "react"
 import AOS from 'aos'
 function Content(){
-    return <div className="hidden sm:flex flex-row items-center justify-evenly w-[50%]">
+    return <div className="hidden md:flex flex-row items-center justify-evenly w-[50%]">
         <p className="text-[16px] md:text-xl"><Link to='/'>Home</Link></p>
         <p className="text-[16px] md:text-xl"><Link to='/about'>About</Link></p>
         <p className="text-[16px] md:text-xl"><Link to='/services'>Services</Link></p>
@@ -31,7 +31,7 @@ function Navbar(){
                 AOS.init();
               }, [])
     function MobileNav(){
-        return <div className="absolute left-0 top-0 z-[40] w-[100%] bg-[#8bffdcfd] p-[30px]" data-aos='slide-down'>
+        return <div className="absolute left-0 top-0 z-[40] w-[100%] bg-[#8bffdcfd] p-[30px] md:hidden" data-aos='slide-down'>
             <X onClick={close} className="absolute right-[10%] cursor-pointer"/>
             <ul className="divide-y divide-gray-500 mt-4">
             <li className="py-3 text-center text-xl    "><Link to='/'>Home</Link></li>
@@ -52,11 +52,11 @@ function Navbar(){
         <Content/>
         {isOpen?<MobileNav/>:null}
         <div>
-            <button className="p-[10px] rounded-2xl bg-[#f5f5f5] hidden sm:flex font-bold cursor-pointer">
+            <button className="p-[10px] rounded-2xl bg-[#f5f5f5] hidden md:flex font-bold cursor-pointer">
                 Get started
             </button>
         </div>
-        <div className="sm:hidden cursor-pointer" >
+        <div className="md:hidden cursor-pointer" >
             {isOpen?<X onClick={close}/>:<Menu onClick={open}/>}
         </div>
     </nav>
