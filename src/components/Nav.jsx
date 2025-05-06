@@ -39,9 +39,11 @@ function Navbar(){
             <li className="py-3 text-center text-xl    "><Link to='/services'>Services</Link></li>
             <li className="py-3 text-center text-xl    "><Link to='/contact'>Contact</Link></li>
             </ul>
-            <button className="p-[10px] rounded-2xl text-white text-center font-semibold bg-[#0c0e0c]">
+           <a href="https://tinyurl.com/4p8bn245">
+           <button className="p-[10px] rounded-2xl text-white text-center font-semibold bg-[#0c0e0c]">
                 Get started
             </button>
+           </a>
         </div>
     }
     return <nav className="flex flex-row p-[30px] fixed items-center justify-between py-3  w-[100%] bg-[#fcfcfc2a] backdrop-blur-xl z-[50]">
@@ -52,9 +54,11 @@ function Navbar(){
         <Content/>
         {isOpen?<MobileNav/>:null}
         <div>
+            <a href="https://tinyurl.com/4p8bn245">
             <button className="p-[10px] rounded-2xl bg-[#f5f5f5] hidden md:flex font-bold cursor-pointer">
                 Get started
             </button>
+            </a>
         </div>
         <div className="md:hidden cursor-pointer" >
             {isOpen?<X onClick={close}/>:<Menu onClick={open}/>}
