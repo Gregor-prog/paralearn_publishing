@@ -39,7 +39,7 @@ function Navbar(){
             <ul className="divide-y divide-gray-500 mt-4">
             <li className="py-3 text-center text-xl" style={location.pathname === "/"?{color:"#",fontWeight:"bold", backgroundColor:"#08D2A2"}:null}><Link to='/'>Home</Link></li>
             <li className="py-3 text-center text-xl" style={location.pathname === "/about"?{color:"#",fontWeight:"bold", backgroundColor:"#08D2A2"}:null}><Link to='/about'>About</Link></li>
-            <li className="py-3 text-center text-xl" style={location.pathname === "/sevices"?{color:"#",fontWeight:"bold", backgroundColor:"#08D2A2"}:null}><Link to='/services'>Services</Link></li>
+            <li className="py-3 text-center text-xl" style={location.pathname === "/services"?{color:"#",fontWeight:"bold", backgroundColor:"#08D2A2"}:null}><Link to='/services'>Services</Link></li>
             <li className="py-3 text-center text-xl" style={location.pathname === "/contact"?{color:"#",fontWeight:"bold", backgroundColor:"#08D2A2"}:null}><Link to='/contact'>Contact</Link></li>
             <li className="py-3 text-center text-xl" style={location.pathname === "/barcode-gen"?{color:"#",fontWeight:"bold", backgroundColor:"#08D2A2"}:null}><Link to='/barcode-gen'>Barcode-gen</Link></li>
             </ul>
