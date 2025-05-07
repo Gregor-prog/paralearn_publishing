@@ -19,7 +19,9 @@ function Header(){
         <div className=" z-10 p-[20px] relative align-middle justify-center">
             <p className="text-4xl lg:text-5xl relative font-bold  my-5" style={{fontFamily:"montserrat"}}>Re-Invent Your Publishing Journey with AI‑Powered Support</p>
             <p className="font-[lora]" style={{fontFamily:"lora"}}>From manuscript to market—fast, affordable, and personalized.</p>
+            <a href="https://tinyurl.com/4p8bn245">
             <button className="p-[13px] rounded-2xl my-[20px] bg-[#1A1F3B] mx-4 drop-shadow-2xl text-white hover:bg-[#4e5580] cursor-pointer drop-shadow-[#474747]">Get Started</button>
+            </a>
         </div>
         <div className="relative" >
         <img src={draw}  alt="no pic" data-aos='fade-down' className="right-[90px] w-[340px] lg:w-[470px] top-28 z-[5] drop-shadow-xl absolute  drop-shadow-black " />

@@ -73,9 +73,12 @@ function ServiceHome() {
 
       {/* Optional CTA */}
       <div className="mt-12 text-center">
-        <button className="bg-indigo-600 text-white px-6 py-3 rounded-xl text-sm font-medium hover:bg-indigo-700 transition">
+        <a href="https://tinyurl.com/4p8bn245">
+        <button className="bg-indigo-600 text-white px-6 py-3 rounded-xl text-sm font-medium hover:bg-indigo-700 transition cursor-pointer">
           Start Your Publishing Journey
         </button>
+        </a>
+        
       </div>
     </section>
   );
