@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 
 import Barcode from "react-barcode";
 import jsPDF from "jspdf";
-import html2canvas from "html2canvas";
+import html2canvas from "html2canvas-pro";
 import { FaDownload } from "react-icons/fa";
 
 const BarcodeGenComponent = () => {
