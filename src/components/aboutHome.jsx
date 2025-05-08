@@ -10,12 +10,12 @@ function AboutHome() {
           }, [])
   return (
     <section className="relative px-6 py-16 bg-[#f7f7f7] overflow-hidden">
-      <img
+      {/* <img
         src={threeD}
         alt=""
         className="absolute w-[100px] md:w-[150px] bottom-4 right-6 z-0 pointer-events-none"
         data-aos='fade-right'
-      />
+      /> */}
 
       <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between relative z-10" data-aos='fade-left'>
         {/* Left Image */}
