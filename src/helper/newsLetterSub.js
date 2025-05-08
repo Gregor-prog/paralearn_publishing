@@ -1,10 +1,8 @@
 
-// const apiKey = import.meta.env.REACT_APP_BREVO_API_KEY;
-let apiKey = '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'
+const apiKey = import.meta.env.VITE_BREVO_API_KEY;
 console.log(apiKey)
-//   const listId = parseInt(import.meta.env.REACT_APP_BREVO_LIST_ID);
-const listId = 26
-  const fromEmail = import.meta.env.REACT_APP_FROM_EMAIL;    
+  const listId = parseInt(import.meta.env.VITE_BREVO_LIST_ID);
+  const fromEmail = import.meta.env.VITE_FROM_EMAIL;    
 
 // const transactionalEmailsApi = new Brevo.TransactionalEmailsApi();
 
