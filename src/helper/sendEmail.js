@@ -1,5 +1,4 @@
 const apiKey = import.meta.env.VITE_BREVO_API_KEY;
-console.log(apiKey)
   const listId = parseInt(import.meta.env.VITE_BREVO_LIST_ID);
 export async function sendEmail(email){
     const response = await fetch('https://api.brevo.com/v3/smtp/email', {

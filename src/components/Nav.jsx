@@ -36,7 +36,7 @@ function Navbar(){
     function MobileNav(){
         return <div className="absolute left-0 top-0 z-[40] w-[100%] bg-[#8bffdcfd] p-[30px] lg:hidden" data-aos='slide-down'>
             <X onClick={close} className="absolute right-[10%] cursor-pointer"/>
-            <ul className="divide-y divide-gray-500 mt-4">
+            <ul className="divide-y divide-gray-500 mt-4 p-6">
             <li className="py-3 text-center text-xl" style={location.pathname === "/"?{color:"#",fontWeight:"bold", backgroundColor:"#08D2A2"}:null}><Link to='/'>Home</Link></li>
             <li className="py-3 text-center text-xl" style={location.pathname === "/about"?{color:"#",fontWeight:"bold", backgroundColor:"#08D2A2"}:null}><Link to='/about'>About</Link></li>
             <li className="py-3 text-center text-xl" style={location.pathname === "/services"?{color:"#",fontWeight:"bold", backgroundColor:"#08D2A2"}:null}><Link to='/services'>Services</Link></li>

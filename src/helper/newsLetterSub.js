@@ -1,6 +1,5 @@
 
 const apiKey = import.meta.env.VITE_BREVO_API_KEY;
-console.log(apiKey)
   const listId = parseInt(import.meta.env.VITE_BREVO_LIST_ID);
   const fromEmail = import.meta.env.VITE_FROM_EMAIL;    
 
