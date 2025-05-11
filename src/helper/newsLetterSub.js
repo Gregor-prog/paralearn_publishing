@@ -19,7 +19,6 @@ export async function Subscribe(email){
               updateEnabled: true
             })
           });
-          console.log(import.meta.env.VITE_BREVO_API_KEY)
 
           if (!response.ok) {
             const errorData = await response.json();
