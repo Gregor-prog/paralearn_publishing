@@ -15,7 +15,6 @@ function NewsLetter(){
             
         const responseSubscribe = await Subscribe(email)
         const responseEmail = await sendEmail(email)
-        console.log(responseEmail )
 
         if(responseEmail.ok && responseSubscribe.ok){
             toast.success("You have registered for our newsLetter, an email will be sent shortly")
