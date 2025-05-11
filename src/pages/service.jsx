@@ -1,4 +1,15 @@
-import { FaUserTie,FaChalkboardTeacher,FaBullhorn,FaUsers,FaRobot } from "react-icons/fa"
+import {
+  FaPaintBrush,
+  FaPenNib,
+  FaSpellCheck,
+  FaBrain,
+  FaFileAlt,
+  FaCloudUploadAlt,
+  FaGlobe,
+  FaPrint,
+  FaBullhorn,
+  FaCalendarAlt
+} from "react-icons/fa";
 import AOS from 'aos'
 import 'typeface-montserrat'
 import 'typeface-lora'
@@ -6,12 +17,59 @@ import Navbar from "../components/Nav"
 import Footer from "../components/footer"
 function Service(){
     const services = [
-        {title:"Personalized Support",body:"One-on-one coaching to address your unique publishing needs.",icon:FaUserTie},
-        {title:"Educational Workshops",body:"Quarterly training programs covering manuscript prep, editing, and marketing.",icon:FaChalkboardTeacher},
-        {title:"Writing Communities",body:"Join peer groups and mastermind sessions to stay motivated.",icon:FaBullhorn},
-        {title:"Marketing & Advertising",body:"Custom promotion plans to help your book reach its audience.",icon:FaUsers},
-        {title:"AI Integration",body:"Leverage technology to speed up workflows—without AI writing your manuscript.",icon:FaRobot}
-    ]
+  {
+    title: "Cover Design",
+    body: "Creating eye-catching and professional book covers tailored to your genre and audience.",
+    icon: FaPaintBrush
+  },
+  {
+    title: "Ghostwriting",
+    body: "We write your book for you, based on your ideas and voice.",
+    icon: FaPenNib
+  },
+  {
+    title: "Proofreading/Editing",
+    body: "Correcting grammar, punctuation, and clarity to ensure your book is polished.",
+    icon: FaSpellCheck
+  },
+  {
+    title: "Developmental Editing",
+    body: "In-depth review of structure, flow, and content to strengthen your manuscript.",
+    icon: FaBrain
+  },
+  {
+    title: "Typesetting/Internal Design/Formatting",
+    body: "Arranging your book's layout professionally for readability and aesthetic appeal.",
+    icon: FaFileAlt
+  },
+  {
+    title: "Digital Publishing",
+    body: "Converting and uploading your book for Kindle, PDF, EPUB, and other formats.",
+    icon: FaCloudUploadAlt
+  },
+  {
+    title: "Website Publishing",
+    body: "Showcasing your book on a custom website for more visibility and sales.",
+    icon: FaGlobe
+  },
+  {
+    title: "Printing",
+    body: "High-quality physical copies of your book, printed to your desired specs.",
+    icon: FaPrint
+  },
+  {
+    title: "Book Launch Campaign (Ads)",
+    body: "Promoting your book online with targeted ads for maximum reach.",
+    icon: FaBullhorn
+  },
+  {
+    title: "Book Launch Event Management",
+    body: "Full planning and hosting of your book launch events, online or in-person.",
+    icon: FaCalendarAlt
+  }
+];
+
+
     return <div className="bg-[#dbdbdb]">
         <Navbar/>
         <div className="pt-[160px] ">
