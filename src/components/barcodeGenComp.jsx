@@ -68,7 +68,7 @@ const BarcodeGenComponent = () => {
   };
 
   return (
-    <div className="flex flex-col gap-5 py-20 justify-center items-center px-4" id="barcode-generator">
+    <div className="flex flex-col gap-5 py-40 justify-center items-center px-4 " id="barcode-generator">
       <h1 className="text-xl md:text-4xl text-center">Barcode Generator</h1>
 
       <main className="flex flex-col gap-4  bg-theme-light p-10  rounded-xl">
@@ -101,9 +101,9 @@ const BarcodeGenComponent = () => {
                 <span style={{ marginLeft: "10%" }}>{isbn.slice(1, 7)}</span>
                 <span style={{ marginLeft: "15%" }}>{isbn.slice(7)}</span>
               </div>
-              <div className="absolute top-0 bottom-1 border-l-2 border-black">
+              <div className="">
                 {[0, 2, 49, 51, 98, 100].map((left, index) => (
-                  <div
+                  <div className="absolute top-0 bottom-1 border-l-2 border-black"
                     key={index}
                     style={{
                       left: `${left}%`,
