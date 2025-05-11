@@ -10,8 +10,9 @@ function NewsLetter(){
         const email = formData.get('email')
         try {
             
-        const responseSubscribe = Subscribe(email)
-        const responseEmail = sendEmail(email)
+        const responseSubscribe = await Subscribe(email)
+        const responseEmail = await sendEmail(email)
+        console.log(responseEmail )
 
         if(responseEmail.ok && responseSubscribe.ok){
             toast.success("You have registered for our newsLetter, an email will be sent shortly")
@@ -20,13 +21,13 @@ function NewsLetter(){
         } catch (error) {
             if(error){
                 console.log(error)
-                console.log('am error occured')
+                console.log('an error occured')
                 toast.error("an error occured, try again later")
             }
         }
     }
     return <div className="grid grid-cols-1 md:grid-cols-2">
-        <Toaster/>
+        <Toaster richColors position="top-right"/>
         <div className="p-[40px] bg-[#868686] flex flex-col items-start justify-center">
             <p className="text-2xl font-semibold my-2">Subscribe to our newsletter</p>
             <p className="text-[15px] mb-5">Get publishing tips, writing resources, and event updates.</p>
