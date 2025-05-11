@@ -101,5 +101,5 @@ export async function sendEmail(email){
         throw new Error(errorData.message || 'Failed to send welcome email');
       }
       console.log("send user email is succesfull")
-      return 'successfully send email'
+      return response
     }
