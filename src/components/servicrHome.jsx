@@ -1,9 +1,9 @@
 import { CheckCircle } from "lucide-react"; // Run `npm install lucide-react` if not yet installed
 
-import one from "../assets/kevin-woblick-NgPdyZFV29w-unsplash.jpg";
-import two from "../assets/kimberly-farmer-lUaaKCUANVI-unsplash.jpg";
-import three from "../assets/markus-spiske-2G8mnFvH8xk-unsplash.jpg";
-import four from "../assets/illustrator-drawing-ipad-medium-shot.jpg";
+import one from "../assets/IMG-20250511-WA0084.jpg";
+import two from "../assets/IMG-20250511-WA0086.jpg";
+import three from "../assets/IMG-20250511-WA0087.jpg";
+import four from "../assets/IMG-20250511-WA0088.jpg";
 import AOS from 'aos'
 import { useEffect } from "react";
 
