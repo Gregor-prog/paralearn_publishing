@@ -3,7 +3,6 @@ import { Subscribe } from "../helper/newsLetterSub";
 import { sendEmail } from "../helper/sendEmail";
 import { Toaster, toast } from 'sonner';
 import { useState } from "react";
-// import
 function NewsLetter(){
     const [emailState, setEmailState] = useState("")
     async function newsLetter(e){

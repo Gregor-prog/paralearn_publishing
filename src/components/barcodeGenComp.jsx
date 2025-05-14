@@ -4,7 +4,6 @@ import Barcode from "react-barcode";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas-pro";
 import { FaDownload } from "react-icons/fa";
-// import "../assets/barcode.css"
 
 const BarcodeGenComponent = () => {
   const [isbn, setIsbn] = useState("");

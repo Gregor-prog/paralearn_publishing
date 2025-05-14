@@ -1,5 +1,4 @@
 import image from "../assets/2002.i039.010_chatbot_messenger_ai_isometric_set-03-removebg-preview.png";
-import threeD from "../assets/11444696-removebg-preview.png";
 import "typeface-montserrat";
 import "typeface-lora";
 import AOS from 'aos'

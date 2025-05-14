@@ -6,7 +6,6 @@ import favourf from "../assets/team/img101.jpg"
 import ade from "../assets/team/img103.jpg"
 import target from "../assets/20943892.jpg"
 import process from "../assets/7456408.jpg"
-import AOS from "aos"
 import 'typeface-montserrat'
 import 'typeface-lora'
 import Navbar from "../components/Nav"

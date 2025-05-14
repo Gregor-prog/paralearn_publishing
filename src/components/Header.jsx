@@ -1,9 +1,5 @@
 import draw from "../assets/img45-removebg-preview.png"
-import book from "../assets/10473227-removebg-preview.png"
-import search from "../assets/9245936-removebg-preview.png"
-import exbook from "../assets/11255017-removebg-preview.png"
-import AOS from 'aos';
-// import "../assets/App.css"  
+import AOS from 'aos'; 
 import 'typeface-roboto'; 
 import 'typeface-montserrat'
 import 'typeface-lora'

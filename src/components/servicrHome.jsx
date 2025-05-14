@@ -1,5 +1,4 @@
-import { CheckCircle } from "lucide-react"; // Run `npm install lucide-react` if not yet installed
-
+import { CheckCircle } from "lucide-react";
 import one from "../assets/IMG-20250511-WA0084.jpg";
 import two from "../assets/IMG-20250511-WA0086.jpg";
 import three from "../assets/IMG-20250511-WA0087.jpg";
