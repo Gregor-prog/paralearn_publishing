@@ -4,8 +4,8 @@ function SEO({
   title = "Parakletus Publishing | Empowering Authors",
   description = "AI-powered, affordable, and fast publishing services for African writers, academics, and storytellers.",
   keywords = "publishing, book editing, AI publishing, African authors, Parakletus, Nigeria writers, manuscript editing, ISBN",
-  url = "https://parakletus.com.ng",
-  image = "/og-image.png",
+  url = "https://parakletuspublishing.com.ng",
+  image = "/favicon.jpg",
 }) {
   return (
     <Helmet>
