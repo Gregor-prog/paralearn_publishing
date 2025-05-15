@@ -10,6 +10,7 @@ import 'typeface-montserrat'
 import 'typeface-lora'
 import Navbar from "../components/Nav"
 import Footer from "../components/footer"
+import SEO from "../components/SEO"
 function About(){
     const team = [
         {pic:ayobami, name:"Michael Ayobami", role:"Design Lead"},
@@ -20,6 +21,11 @@ function About(){
         {pic:ade, name:"TaiwoAde-Onojobi", role:"Designer"}
     ]
     return <div className="flex flex-col bg-[white] w-[100vw]">
+      <SEO 
+              title="Home | Parakletus Publishing"
+              description="From manuscript to market—fast, affordable, and personalized publishing support."
+              keywords = "about parekletus"
+            />
         <Navbar/>
         <div className="flex flex-row items-center gap-5 h-[500px] mt-[80px]">
             <div data-aos='slide-right' className="bg-[#026459] p-[45px] text-left sm:w-[50%] h-full flex flex-col  justify-center w-[100%]">
