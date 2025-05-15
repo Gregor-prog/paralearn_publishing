@@ -1,11 +1,12 @@
-import AboutHome from "../components/aboutHome"
-import Footer from "../components/footer"
-import Header from "../components/Header"
-import Navbar from "../components/Nav"
-import NewsLetter from "../components/newsletter"
-import ServiceHome from "../components/servicrHome"
-import Stat from "../components/stats"
-import SEO from "../components/SEO"
+import { lazy } from 'react';
+const AboutHome = lazy(() => import('../components/aboutHome'));
+const Footer = lazy(() => import('../components/footer'));
+const Header = lazy(() => import('../components/Header'));
+const Navbar = lazy(() => import('../components/Nav'));
+const NewsLetter = lazy(() => import('../components/newsletter'));
+const ServiceHome = lazy(() => import('../components/servicrHome'));
+const Stat = lazy(() => import('../components/stats'));
+const SEO = lazy(() => import('../components/SEO'));
 function Home(){
     return <div className="bg-[#ececfc] overflow-hidden w-[100dvw]">
         <SEO 
