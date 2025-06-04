@@ -32,7 +32,7 @@ function NewsLetter(){
             <p className="text-2xl font-semibold my-2">Subscribe to our newsletter</p>
             <p className="text-[15px] mb-5">Get publishing tips, writing resources, and event updates.</p>
             <form onSubmit={(e) => {newsLetter(e)}} className="relative h-[40px] w-full max-w-md rounded-xl overflow-hidden">
-                <input name="email" onChange={(e) => {setEmailState(e.target.value)}} value={emailState}  type="email" placeholder="Parekatus@gmail.com" className="h-full p-5 bg-[#e2e2e2] w-[70%] border-0"/>
+                <input name="email" onChange={(e) => {setEmailState(e.target.value)}} value={emailState}  type="email" placeholder="Parakletus@gmail.com" className="h-full p-5 bg-[#e2e2e2] w-[70%] border-0"/>
                 <button className="bg-red-600 h-full text-white w-[30%] hover:bg-red-700" >Subscribe</button>
             </form>
         </div>
