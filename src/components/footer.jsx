@@ -1,5 +1,6 @@
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import logo from "../assets/logo_1.jpg"
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -19,10 +20,10 @@ function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Services</h3>
           <ul className="space-y-2 text-sm text-gray-400">
-            <li><a href="#">Book Editing</a></li>
-            <li><a href="#">Cover Design</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Distribution</a></li>
+            <li><a href="https://tinyurl.com/4p8bn245">Book Editing</a></li>
+            <li><a href="https://tinyurl.com/4p8bn245">Cover Design</a></li>
+            <li><a href="https://tinyurl.com/4p8bn245">Marketing</a></li>
+            <li><a href="https://tinyurl.com/4p8bn245">Distribution</a></li>
           </ul>
         </div>
 
@@ -30,10 +31,11 @@ function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3">Company</h3>
           <ul className="space-y-2 text-sm text-gray-400">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Careers</a></li>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/#stat">Testimonials</Link></li>
+            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/barcode-gen">Barcode Generator</Link></li>
           </ul>
         </div>
 

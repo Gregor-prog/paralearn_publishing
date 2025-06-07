@@ -30,7 +30,7 @@ function Stat() {
                   AOS.init();
                 }, [])
   return (
-    <section className="bg-white py-16 px-6 md:px-12 lg:px-20">
+    <section className="bg-white py-16 px-6 md:px-12 lg:px-20" id="stat">
       <h2
         className="text-3xl md:text-4xl font-bold text-gray-800 mb-12 text-center"
         style={{ fontFamily: "Montserrat" }}

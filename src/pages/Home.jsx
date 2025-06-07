@@ -18,7 +18,7 @@ function Home(){
     <Header/>
     <AboutHome/>
     <ServiceHome/>
-    <Stat/>
+    <Stat id="stat"/>
     <NewsLetter/>
     <Footer/>
     </div>
