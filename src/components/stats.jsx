@@ -4,21 +4,24 @@ import "typeface-montserrat";
 import "typeface-lora";
 import AOS from 'aos'
 import { useEffect } from "react";
+import test1 from "../assets/mubarak-showole-Ve7xjKImd28-unsplash.jpg"
+import test2 from "../assets/prince-akachi-s6tVlDVKz38-unsplash.jpg"
+import test3 from "../assets/prince-akachi-qg0Kc86YLBY-unsplash.jpg"
 const testimonialSlides = [
   {
     testimony:
       "Parakletus Publishing transformed my manuscript into a masterpiece! Their editorial team is meticulous, and the book cover design exceeded my expectations. Highly recommended for aspiring authors.",
-    img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=faces",
+    img: test1,
   },
   {
     testimony:
       "Working with Parakletus was a game-changer. Their marketing strategy helped my book reach a global audience. The team is professional, creative, and truly cares about their authors.",
-    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop&crop=faces",
+    img: test2,
   },
   {
     testimony:
       "From formatting to distribution, Parakletus Publishing handled everything seamlessly. My book is now available in major stores, and I couldn’t be happier with the results!",
-    img: "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=300&h=300&fit=crop&crop=faces",
+    img: test3,
   },
 ];
 
