@@ -10,11 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@getbrevo/brevo": "^2.2.0",
     "@splidejs/react-splide": "^0.7.12",
     "@tailwindcss/vite": "^4.1.4",
     "aos": "^3.0.0-beta.6",
     "axios": "^1.9.0",
+    "emailjs": "^4.0.3",
+    "emailjs-com": "^3.2.0",
     "html2canvas": "^1.4.1",
     "html2canvas-pro": "^1.5.10",
     "jspdf": "^3.0.1",

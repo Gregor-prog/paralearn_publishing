@@ -1,25 +1,40 @@
 import contact from "../assets/5132728.jpg"
 import Footer from "../components/footer"
 import Navbar from "../components/Nav"
-import AOS from 'aos'
+import {  EmailResponse } from "../helper/contactEmail"
+import { Toaster,toast } from "sonner"
 function Contact(){
     const formElement = [
         {label:"Name",type:"text",name:"fullname"},
         {label:"Email",type:"email",name:"email"},
-        {label:"Subject",type:"text",name:"subject"},
         {label:"Message",type:"textbox",name:"message"},
     ]
-    function Submit(e){
+    async function Submit(e){
             e.preventDefault()
             const data = new FormData(e.target);
             const Name = data.get('fullname')
             const Email = data.get('email')
-            const Subject = data.get('subject')
             const Message = data.get('message')
-            console.log(Name+Email+Subject+Message)
-    }
+
+            try {
+            const EmailRe = await EmailResponse(Name,Email,Message)
+            if(EmailRe.status == 200){
+              toast.success("success, please wait for our feedback")
+              e.target.reset();
+            }
+              
+            } catch (error) {
+              if(error){
+                toast.error("an error occured, please try again later")
+                console.log(error)
+              }
+            }
+            
+           }
+
     return <div>
         <Navbar/>
+        <Toaster richColors position="top-center"/>
         <div className="flex flex-col md:flex-row items-start gap-8 px-6 pb-12 pt-[100px] bg-white">
   <div className="w-full md:w-[55%] bg-gray-50 rounded-2xl p-8 shadow-md" data-aos='slide-right'>
     <form onSubmit={(e) => Submit(e)} className="space-y-6">
