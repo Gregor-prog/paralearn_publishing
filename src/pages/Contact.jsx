@@ -15,7 +15,7 @@ function Contact(){
             const Name = data.get('fullname')
             const Email = data.get('email')
             const Message = data.get('message')
-
+ 
             try {
             const EmailRe = await EmailResponse(Name,Email,Message)
             if(EmailRe.status == 200){
