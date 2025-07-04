@@ -8,7 +8,8 @@ import {
   FaGlobe,
   FaPrint,
   FaBullhorn,
-  FaCalendarAlt
+  FaCalendarAlt,
+  FaFileAlt
 } from "react-icons/fa";
 import AOS from 'aos'
 import 'typeface-montserrat'
@@ -66,7 +67,12 @@ function Service(){
     title: "Book Launch Event Management",
     body: "Full planning and hosting of your book launch events, online or in-person.",
     icon: FaCalendarAlt
-  }
+  },
+  {
+ title: "Research Paper Writing and Publishing",
+ body: "Professional assistance with academic research, manuscript preparation, and journal publication guidance.",
+ icon: FaFileAlt
+}
 ];
 
 
