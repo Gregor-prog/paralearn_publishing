@@ -12,7 +12,7 @@ function Home(){
         <SEO 
         title="Home | Parakletus Publishing"
         description="From manuscript to market—fast, affordable, and personalized publishing support."
-        keywords = "publishing, book editing, AI publishing, African authors, Parakletus, Nigeria writers, manuscript editing, ISBN"
+        keywords = "Nigeria, Nigeria publishers,books,articles, publish,book publishing,publishers,authors,publishing, book editing, AI publishing, African authors, Parakletus, Nigeria writers, manuscript editing, ISBN,self publishing,book editing, book design,book launch"
       />
     <Navbar/>
     <Header/>
