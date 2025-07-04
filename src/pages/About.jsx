@@ -24,7 +24,7 @@ function About(){
       <SEO 
               title="Home | Parakletus Publishing"
               description="From manuscript to market—fast, affordable, and personalized publishing support."
-              keywords = "about parekletus"
+              keywords = "about parekletus,publish, Nigeria, African publish, amazon KDP"
             />
         <Navbar/>
         <div className="flex flex-row items-center gap-5 h-[500px] mt-[80px]">

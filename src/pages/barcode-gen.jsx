@@ -8,7 +8,7 @@ function BarcodeGen(){
         <SEO 
         title="Home | Parakletus Publishing"
         description="From manuscript to market—fast, affordable, and personalized publishing support."
-        keywords = "barcode generator, ISBN"
+        keywords = "barcode generator, ISBN, generate Bar code"
       />
         <Navbar/>
         <BarcodeGenComponent/>

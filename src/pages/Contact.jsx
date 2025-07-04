@@ -3,7 +3,9 @@ import Footer from "../components/footer"
 import Navbar from "../components/Nav"
 import {  EmailResponse } from "../helper/contactEmail"
 import { Toaster,toast } from "sonner"
+import SEO from "../components/SEO"
 function Contact(){
+  
     const formElement = [
         {label:"Name",type:"text",name:"fullname"},
         {label:"Email",type:"email",name:"email"},
@@ -33,6 +35,11 @@ function Contact(){
            }
 
     return <div>
+      <SEO 
+        title="Home | Parakletus Publishing"
+        description="From manuscript to market—fast, affordable, and personalized publishing support."
+        keywords = "contact publishers, paraletus contact"
+      />
         <Navbar/>
         <Toaster richColors position="top-center"/>
         <div className="flex flex-col md:flex-row items-start gap-8 px-6 pb-12 pt-[100px] bg-white">

@@ -16,6 +16,7 @@ import 'typeface-montserrat'
 import 'typeface-lora'
 import Navbar from "../components/Nav"
 import Footer from "../components/footer"
+import SEO from "../components/SEO"
 function Service(){
     const services = [
   {
@@ -77,6 +78,10 @@ function Service(){
 
 
     return <div className="bg-[#dbdbdb]">
+      <SEO 
+        title="Home | Parakletus Publishing"
+        description="From manuscript to market—fast, affordable, and personalized publishing support."
+        keywords = "Cover Design,Ghostwriting,Proofreading/Editing,Developmental Editing,Typesetting/Internal Design/Formatting,Digital Publishing,Website Publishing,Printing,Book Launch Campaign (Ads),Book Launch Event Management,Research Paper Writing and Publishing"/>
         <Navbar/>
         <div className="pt-[160px] ">
         <p className="text-center text-4xl font-semibold">Our Services</p>
